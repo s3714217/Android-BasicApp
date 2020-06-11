@@ -1,0 +1,37 @@
+com/example/myfirstapp/ThirdFragment.java
+ com.example.myfirstapp.ThirdFragment
+ com.example.myfirstapp.ThirdFragment$1
+ com.example.myfirstapp.ThirdFragment$2
+ com.example.myfirstapp.ThirdFragment$3
+ com.example.myfirstapp.ThirdFragment$4
+com/example/myfirstapp/SecondFragment.java
+ com.example.myfirstapp.SecondFragment
+ com.example.myfirstapp.SecondFragment$1
+ com.example.myfirstapp.SecondFragment$2
+ com.example.myfirstapp.SecondFragment$3
+ com.example.myfirstapp.SecondFragment$4
+ com.example.myfirstapp.SecondFragment$5
+com/example/myfirstapp/MainActivity.java
+ com.example.myfirstapp.MainActivity
+com/example/myfirstapp/BuildConfig.java
+ com.example.myfirstapp.BuildConfig
+com/example/myfirstapp/FirstFragment.java
+ com.example.myfirstapp.FirstFragment
+ com.example.myfirstapp.FirstFragment$1
+ com.example.myfirstapp.FirstFragment$2
+ com.example.myfirstapp.FirstFragment$3
+ com.example.myfirstapp.FirstFragment$4
+ com.example.myfirstapp.FirstFragment$5
+ com.example.myfirstapp.FirstFragment$6
+com/example/myfirstapp/ForthFragment.java
+ com.example.myfirstapp.ForthFragment
+ com.example.myfirstapp.ForthFragment$1
+ com.example.myfirstapp.ForthFragment$10
+ com.example.myfirstapp.ForthFragment$2
+ com.example.myfirstapp.ForthFragment$3
+ com.example.myfirstapp.ForthFragment$4
+ com.example.myfirstapp.ForthFragment$5
+ com.example.myfirstapp.ForthFragment$6
+ com.example.myfirstapp.ForthFragment$7
+ com.example.myfirstapp.ForthFragment$8
+ com.example.myfirstapp.ForthFragment$9
