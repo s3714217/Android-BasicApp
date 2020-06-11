@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e90ff"
+    tools:context=".SecondFragment">
+
+
+    <Button
+        android:id="@+id/grid_02"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/grid_12"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid_02" />
+
+    <Button
+        android:id="@+id/grid_22"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="20pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid_12"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Button
+        android:id="@+id/grid_21"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/grid_22"
+        app:layout_constraintTop_toBottomOf="@+id/grid_11"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Button
+        android:id="@+id/grid_01"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toStartOf="@+id/grid_02"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/grid_11"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toStartOf="@+id/grid_12"
+        app:layout_constraintTop_toBottomOf="@+id/grid_01" />
+
+    <Button
+        android:id="@+id/grid_20"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toStartOf="@+id/grid_21"
+        app:layout_constraintTop_toBottomOf="@+id/grid_10"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Button
+        android:id="@+id/grid_10"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toStartOf="@+id/grid_11"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid_00" />
+
+    <Button
+        android:id="@+id/button_second2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/grid_00"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toStartOf="@+id/grid_01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
